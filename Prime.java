@@ -1,4 +1,5 @@
-public class Prime {
+public class Prime 
+{
     public static void main(String[] args) {
         int limit = 50; // Change this to any number to set the upper limit
         System.out.println("Prime numbers up to " + limit + ":");
@@ -17,5 +18,6 @@ public class Prime {
                 System.out.print(number + " ");
             }
         }
+        System.out.println("prime");
     }
 }
